@@ -6,5 +6,6 @@ const nav = document.querySelector(".menu");
 toggle.addEventListener("click", () => {
   // Mise à jour des attributs ARIA pour accessibilité
   nav.ariaHidden = nav.ariaHidden === "false";
-  toggle.ariaExpanded = toggle.ariaExpanded === "true";
+  toggle.ariaExpanded = toggle.ariaExpanded === "true"; 
+body.classList.toggle("noscroll");
 });
